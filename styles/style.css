@@ -1,73 +1,88 @@
-.bulldozer {
+body {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.header {
     width: 1320px;
     height: 600px;
-    margin: 40px;
     border-radius: 16px;
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
     background-image: url('../resources/Banner Image.png');
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 
-.ny {
+
+.happy {
+    margin-top: 177px;
+    margin-bottom: 0;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.ceb {
+    font-size: 30px;
+    font-family: Merriweather;
+    font-weight: 900;
+    
+}
+
+.new-year {
     display: flex;
-    height: 100%;
-    justify-content: center;
+    padding: auto;
+    margin: auto;
     flex-direction: column;
+    text-align: center;
     align-items: center;
     color: #FFF;
     font-family: Merriweather;
-}
-
-#cracker {  
-    font-size: 32px;
-    font-weight: 400;
-
-}
-
-.jonli {    
-    font-size: 72px;
-    font-weight: 900;    
-    text-align: center;
+    text-transform: uppercase;
 }
 
 
+.category {
+    display: flex;
+    width: 100%;
+    padding-top: 120px;
+    justify-content: space-around;    
+    align-items: center;
+    
+}
 
-#elephant {
+.offer h2 {
     color: #F00;
-    text-align: center;
     font-family: Inter;
     font-size: 88px;
     font-weight: 700;
 }
 
-#cat {
+.offer p {
     color: #F00;
-    text-align: center;
-    font-family: Inter;
     font-size: 24px;
     font-weight: 500;
+    text-transform: uppercase;
 }
 
-#categories {
+.offer h3 {
     color: #070211;
-    text-align: center;
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-
 }
 
-.hoover-image {
-    width: 100%;
-    height: 500px;
-    /* align-items: center; */
-    justify-content: center; 
-    display: flex;
-    /* flex-direction: row; */
 
-}
+
+
+
+    
+    
+
+
+
 
