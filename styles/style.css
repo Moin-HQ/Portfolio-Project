@@ -49,10 +49,9 @@ body {
 .category {
     display: flex;
     width: 100%;
-    padding-top: 120px;
+    padding-top: 60px;
     justify-content: space-around;    
-    align-items: center;
-    
+    align-items: center;    
 }
 
 .offer h2 {
@@ -74,6 +73,69 @@ body {
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
+}
+
+.offer img {
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.offer img:hover {
+    box-shadow: 0 0 10px 5px rgb(0, 60, 255); 
+    border-radius: 30px; 
+}
+
+.vector h3 {
+    color: #FFF;    
+    font-size: 64px;
+    font-weight: 900;
+    font-family: Merriweather;
+    letter-spacing: 7.04px;    
+}
+
+.vector {
+    width: 1320px;
+    height: 600px;
+    fill: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background-image: url('../resources/Vectorrr.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+} 
+
+.vector #party {
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.party-container {
+    text-align: left;
+    width: 65%;
+    text-wrap: wrap;
+}
+
+/* .event-container {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    
+
+} */
+
+.event {
+    background: linear-gradient(to top, #ac978be9, #c79a82);
+    width: 1320px;
+    height: 482px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+   
+    
+    
 }
 
 
