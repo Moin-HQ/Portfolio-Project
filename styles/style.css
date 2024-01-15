@@ -233,10 +233,11 @@ body {
 .first-section {
     text-align: left;
     margin: 125px 140px auto auto;
-    padding: -900px;
-}
+    /* padding: -900px; */
+} 
 
 .third-section {
     text-align: left;
-    margin: 135px auto auto 140px;
+    margin: 125px auto auto 100px;
 }
+
