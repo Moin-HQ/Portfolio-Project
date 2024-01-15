@@ -11,7 +11,7 @@ body {
     width: 1320px;
     height: 600px;
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    background: linear-gradient(180deg, rgba(7, 2, 11, 0) rgba(7, 2, 17, 1));
     background-image: url('../resources/Banner Image.png');
     background-position: center;
     background-size: cover;
@@ -21,16 +21,19 @@ body {
 
 .happy {
     margin-top: 177px;
-    margin-bottom: 0;
+    margin-bottom: -40px;
     font-size: 32px;
     font-weight: 400;
 }
 
 .ceb {
     font-size: 30px;
+    margin-top: -50px;
     font-family: Merriweather;
     font-weight: 900;
-    
+    margin-top: -10px;
+    /* line-height: 1; */
+
 }
 
 .new-year {
@@ -50,8 +53,8 @@ body {
     display: flex;
     width: 100%;
     padding-top: 60px;
-    justify-content: space-around;    
-    align-items: center;    
+    justify-content: space-around;
+    align-items: center;
 }
 
 .offer h2 {
@@ -80,16 +83,16 @@ body {
 }
 
 .offer img:hover {
-    box-shadow: 0 0 10px 5px rgb(0, 60, 255); 
-    border-radius: 30px; 
+    box-shadow: 0 0 10px 5px rgb(0, 60, 255);
+    border-radius: 30px;
 }
 
 .vector h3 {
-    color: #FFF;    
+    color: #FFF;
     font-size: 64px;
     font-weight: 900;
     font-family: Merriweather;
-    letter-spacing: 7.04px;    
+    letter-spacing: 7.04px;
 }
 
 .vector {
@@ -101,7 +104,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 130px;
-} 
+}
 
 .vector #party {
     color: rgba(255, 255, 255, 0.80);
@@ -117,34 +120,123 @@ body {
     text-wrap: wrap;
 }
 
-/* .event-container {
-    display: flex;
-    text-align: center;
-    align-items: center;
-    
-
-} */
+.event-container {
+    width: 1320px;
+    height: 482px;
+    background: linear-gradient(to top, #edebea, #d7bcae);
+    background-position: center;
+    background-size: cover;
+    margin-top: 120px;
+}
 
 .event {
-    background: linear-gradient(to top, #ac978be9, #c79a82);
-    width: 1320px;
-    height: 482px; 
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-   
-    
-    
+    padding: 80px 300px 350px 320px;
+}
+
+.highlight {
+    color: #F00;
+
+}
+
+.event p {
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: #F00;
+    border-radius: 8px;
+    margin-top: 20px;
+    padding: 16px 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+}
+
+.btn .btn-description {
+    text-transform: uppercase;
+    color: #FFF;
+    text-align: center;
+}
+
+.event-container p {
+    margin: 15px auto;
+}
+
+.upcomming-offers {
+    width: 1320px;
+    height: 482px;
+    background: #FFF;
+    display: flex;
+    margin-top: 120px;
+    /* justify-content: space-between;
+    flex-direction: row;
+    align-items: stretch; */
 }
 
 
+.best-offer {
+    color: #F00;
+    text-align: left;
+    margin-bottom: -35px;
+    font-size: 24px;
+    font-family: Inter;
+    font-weight: 500;
+}
 
+.comming {
+    color: #070211;
+    font-family: Merriweather;
+    margin-bottom: -7px;
+    font-size: 48px;
+    font-weight: 900;
+    /* text-align: left; */
+}
 
+.explanation {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    color: black;
+    /* text-align: left; */
 
-    
-    
+}
 
+.center-image {
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 50px;
+    text-align: center;
+}
 
+.year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: -15px;
+}
 
+.description {
+    color: black;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
 
+.first-section {
+    text-align: left;
+    margin: 125px 140px auto auto;
+    padding: -900px;
+}
+
+.third-section {
+    text-align: left;
+    margin: 135px auto auto 140px;
+}
