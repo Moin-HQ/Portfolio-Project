@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 100px;
 }
 
 
@@ -103,7 +104,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 130px;
+    margin: 130px auto 0px;
 }
 
 .vector #party {
@@ -118,6 +119,7 @@ body {
     text-align: left;
     width: 65%;
     text-wrap: wrap;
+    margin
 }
 
 .event-container {
@@ -126,7 +128,7 @@ body {
     background: linear-gradient(to top, #edebea, #d7bcae);
     background-position: center;
     background-size: cover;
-    margin-top: 120px;
+    margin: 120px auto 0px;
 }
 
 .event {
@@ -174,10 +176,8 @@ body {
     height: 482px;
     background: #FFF;
     display: flex;
-    margin-top: 120px;
-    /* justify-content: space-between;
-    flex-direction: row;
-    align-items: stretch; */
+    margin: 120px auto 0px;
+    gap: 20px;
 }
 
 
@@ -196,7 +196,6 @@ body {
     margin-bottom: -7px;
     font-size: 48px;
     font-weight: 900;
-    /* text-align: left; */
 }
 
 .explanation {
@@ -204,7 +203,7 @@ body {
     font-size: 20px;
     font-weight: 400;
     color: black;
-    /* text-align: left; */
+
 
 }
 
@@ -232,12 +231,135 @@ body {
 
 .first-section {
     text-align: left;
-    margin: 125px 140px auto auto;
-    /* padding: -900px; */
-} 
+    margin: 125px 20px auto auto;
+
+}
 
 .third-section {
     text-align: left;
     margin: 125px auto auto 100px;
 }
 
+
+
+.functional-container {
+    width: 1000px;
+    height: 1200px;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 120px auto 0px;
+}
+
+.small-head {
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: -50px;
+}
+
+.large-head {
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.discount-flow {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#holidays {
+    color: #F00;
+}
+
+.design-container {
+    margin: 120px auto 0px;
+}
+
+.girl {
+    height: 433px;
+    width: 429px;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 67px;
+
+}
+
+.open-box {
+    height: 600px;
+    width: 700px;
+    position: absolute;
+    margin-left: -689px;
+    margin-top: 95px;
+}
+
+.red-rectangle {
+    height: 229px;
+    width: 1320px;
+    position: absolute;
+    margin-left: -689px;
+    padding-top: 500px;
+}
+
+.percent-off {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 150px;
+
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    max-width: 1400px;
+    margin: 50px auto 0px;
+    padding: 20px 10px;
+}
+
+.best-gift {
+    text-align: left;
+    margin: 120px auto 0px;
+}
+
+.best-gift h3 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    
+}
+
+.best-gift h4 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.best-gift p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 2px;
+}
+
+.newsletter {
+    width: 1320px;
+    height: 616px;
+   background-color: rgba(255, 0, 0, 0.05);
+}
