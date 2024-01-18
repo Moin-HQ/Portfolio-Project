@@ -1,7 +1,4 @@
-/* body {
-    text-align: center;
-    margin-left: 100px;
-} */
+
 
 
 
@@ -31,7 +28,6 @@
     font-family: Merriweather;
     font-weight: 900;
     margin-top: -10px;
-    /* line-height: 1; */
 
 }
 
@@ -78,10 +74,6 @@
     font-weight: 700;
 }
 
-.offer img:hover {
-    box-shadow: 0 0 10px 5px rgb(0, 60, 255);
-    border-radius: 30px;
-}
 
 .vector h3 {
     color: #FFF;
