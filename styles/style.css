@@ -1,4 +1,7 @@
-
+/* body {
+    text-align: center;
+    margin-left: 100px;
+} */
 
 
 
@@ -28,6 +31,7 @@
     font-family: Merriweather;
     font-weight: 900;
     margin-top: -10px;
+    /* line-height: 1; */
 
 }
 
@@ -74,6 +78,10 @@
     font-weight: 700;
 }
 
+.offer img {
+    width: 803px;
+    height: 500px;
+}
 
 .vector h3 {
     color: #FFF;
