@@ -54,8 +54,7 @@
     padding-top: 60px;
     justify-content: center;
     align-items: center;
-    text-align: center;
-   
+    text-align: center;   
 }
 
 .offer h2 {
@@ -77,10 +76,6 @@
     font-family: Inter;
     font-size: 48px;
     font-weight: 700;
-}
-
-.offer img {
-    transition: box-shadow 0.3s ease-in-out;
 }
 
 .offer img:hover {
