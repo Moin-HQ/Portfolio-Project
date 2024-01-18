@@ -1,10 +1,3 @@
-/* body {
-    text-align: center;
-    margin-left: 100px;
-} */
-
-
-
 .header {
     width: 1320px;
     height: 600px;
@@ -31,7 +24,6 @@
     font-family: Merriweather;
     font-weight: 900;
     margin-top: -10px;
-    /* line-height: 1; */
 
 }
 
